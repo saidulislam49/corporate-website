@@ -1,0 +1,205 @@
+.about-banner{
+    padding: 100px 0;
+    h1{
+        font-size: 60px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        color:#fff;
+        margin: 30px 0;
+        text-transform: capitalize;
+    }
+    p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}
+
+.whoWeare{
+    padding: 150px 0;
+
+    &__image{
+        img{
+            width: 100%;
+        }
+    }
+
+    &__description{
+        h2{
+            font-size: 40px;
+            color: #1d59bf;
+            font-weight: 800;
+            text-transform: capitalize;
+            font-family: 'Nunito', sans-serif; 
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            color: #545454;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 50px;
+        }
+    }
+
+    &__counter{
+        margin-top: 50px;
+        .conunter-item{
+            margin-right: 30px;
+            .counte-title{
+                font-family: 'Nunito', sans-serif;
+                font-size: 16px;
+                color: #fbc02d;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .counte-number{
+                font-size: 40px;
+                font-weight: 700;
+                color: #04388e;
+
+            }
+        }
+    }
+}
+.about-slider{
+    background-color: #9fdeff;
+    padding: 100px 0;
+
+    .position{
+        position: relative;
+        .left{
+            position: absolute;
+            top: 50%;
+            left: -35px;
+            font-size: 35px;
+            color: #000;
+        }
+        .right{
+            position: absolute;
+            top: 50%;
+            right: -35px;
+            font-size: 35px;
+            color: #000;
+        }
+    }
+    .slider-item{
+        background-color: #fff; 
+        img{
+
+        }
+    }
+}
+.about-gallery{
+    padding: 100px 0;
+    .about-gallery-item{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .gallery-1{
+            background-color: #d9edfe;
+        }
+        .gallery-2{
+            background-color: #959595;
+        }
+        .gallery-3{
+            background-color: #fac02e;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            h2{
+                font-family: 'Nunito', sans-serif;
+                color: #1d59bf;
+                font-size: 30px;
+                text-transform: uppercase; 
+            }
+        }
+        .gallery-4{
+            background-color: #658ccf;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h3{
+                font-family: 'Nunito', sans-serif;
+                color: #fff;
+                font-size: 30px;
+                text-transform: uppercase; 
+            }
+        }
+
+        .gallery-5{
+            background-color: #1b5ac4;
+            img{
+
+            }
+        }
+
+        .middel-bottom{
+             flex: 1;
+             margin-top: 20px;
+        }
+    }
+}
+
+
+/* story part  */
+.story{
+
+    .section-title{
+
+        h4{
+            font-family: 'Nunito', sans-serif;
+            font-size: 46px;
+            font-weight: 800;;
+            color: #1d59bf;
+        }
+        h5{
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            font-weight: 800;;
+            color: #1d59bf;
+        }
+    }
+
+    .story-item{
+
+        .story-heading{
+            h4{
+                
+            }
+            h5{
+
+            }
+        }
+        .story-body{
+            .story-image{
+                img{
+
+                }
+            }
+            .story-description{
+                h4{
+
+                }
+                p{
+
+                }
+            }
+        }
+    }
+
+    .story-bar{
+
+        .story-circle{
+
+        }
+    }
+}

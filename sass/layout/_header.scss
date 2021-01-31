@@ -1,0 +1,33 @@
+header.header .navbar ul{
+    margin-left: auto;
+}
+header.header .navbar ul li{
+    margin: 0 10px;
+}
+header.header .navbar ul li a.nav-link{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 13px;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 600;
+     padding: 10px 10px;
+     position: relative;
+}
+header.header .navbar ul li a.active::after,
+header.header .navbar ul li a.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fbc02d;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    transition: all .3s;
+}
+header.header .navbar ul li a.active::after{
+    width: 100%;
+}
+header.header .navbar ul li a.nav-link:hover::after{
+    width: 100%;
+}

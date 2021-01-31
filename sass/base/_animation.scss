@@ -1,0 +1,42 @@
+@keyframes iconMove{
+    0%{
+        transform: translateY(0);  
+        transform: translateX(0);  
+    }
+    25%{
+        transform: translateY(-70px); 
+    }
+    50%{ 
+        transform: translateX(70px); 
+    }
+    70%{
+        transform: translateY(70px); 
+    } 
+    100%{
+        transform: translateY(0);  
+        transform: translateX(0); 
+    }
+}
+
+@keyframes circleMove{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    25%{
+        transform: scale(1.5);
+        opacity: .2;
+    }
+    50%{
+        transform: scale(2);
+        opacity: .5;
+    }
+    75%{
+        transform: scale(2.3);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}

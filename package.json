@@ -1,0 +1,14 @@
+{
+  "name": "element-corporate-agency-website",
+  "version": "1.0.0",
+  "description": "agency psd to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Saidul islam",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

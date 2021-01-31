@@ -1,0 +1,48 @@
+.button{
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all .3s;
+    position: relative;
+    z-index: 1; 
+}
+.button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 10px;
+    transition: all .3s;
+    z-index: -1;
+}
+.button:hover::after{
+    transform: scale(1.3);
+    opacity: 0;
+    background: #fbc02d;
+}
+.button--yellow{
+    background-color: #fbc02d;
+    color: #003edd;
+    margin-right: 10px;
+}
+.button--yellow:hover{
+    border: 2px solid #fbc02d;
+    color: #fbc02d;
+    background: transparent;
+}
+.button--outline{
+    border: 2px solid #fbc02d;
+    color: #fbc02d;
+}
+.button--outline:hover{
+    background-color: #fbc02d;
+    color: #003edd;
+}

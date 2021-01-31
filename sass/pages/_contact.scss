@@ -1,0 +1,97 @@
+.header{
+   &__contact-banner{
+    padding: 100px 0;
+    h1{
+        font-size: 60px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        color:#fff;
+        margin: 30px 0;
+        text-transform: capitalize;
+    }
+    p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;  
+        margin-bottom: 60px;
+    }
+   }
+}
+.contactMain{
+    padding: 150px 0;
+    &__information{
+        background-color: #1b5ac4;
+        border-radius: 10px;
+        padding: 70px 60px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.3);
+        transition: all .3s;
+
+        &:hover{
+            box-shadow: 0 15px 10px rgba(0,0,0,.3);
+            transform: translateY(-8px) scale(1.01);
+        }
+        h2{
+            font-family: 'Nunito', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: #fff;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff; 
+            margin-bottom: 40px;
+        }
+    }
+    .information-item{
+       margin-top: 30px;
+        .information-icon{
+            i{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background-color: #fbc02d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #1b5ac4;
+                font-size: 22px;
+            }
+            margin-right: 15px;
+        }
+        .information-text{ 
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                line-height: 26px;
+                margin: 0;
+                
+            }
+        }
+    }
+
+    .contact-form{
+
+        input,textarea{
+            margin-bottom: 25px;
+            padding: 10px 20px;
+            border: 1px solid #1b5ac4;
+            border-radius: 10px;
+        }
+        textarea{
+            height: 200px;
+
+        }
+        input[type="submit"]{
+            border: 2px solid #fbc02d;
+            padding: 10px 40px;
+        }
+    }
+
+}
